@@ -14,13 +14,9 @@
 body{
     font-family: var(--opensans);
     background-color: var(--Violet);
-    background-image: url(/images/bg-mobile.svg);
+    background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    
-    
-    
-    
 }
 .conteiner{
     background-color: transparent;
@@ -63,7 +59,7 @@ body{
 .img{
     width: 75%;
     height: 85%;
-    background-image: url(/images/illustration-mockups.svg);
+    background-image: url(../images/illustration-mockups.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -137,11 +133,8 @@ body{
 }
 @media (min-width:750px) {
     body{
-        background-image: url(/images/bg-desktop.svg);
+        background-image: url(../images/bg-desktop.svg);
         background-size: 100% 100%;
-        
-        
-
     }
     .conteiner{
        max-width: 100%;
